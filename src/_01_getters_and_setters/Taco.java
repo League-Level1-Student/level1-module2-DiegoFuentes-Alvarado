@@ -15,12 +15,12 @@ public class Taco {
 		return sauce;
 	}
 
-	//public String setMeat() {
+	public void setMeat(String m) {
+		meat = m;
+	}
 
-	//}
-
-	//public String setSauce() {
-
-	//}
+	public void setSauce(String s) {
+		sauce = s;
+	}
 
 }
